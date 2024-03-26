@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/vector-gratis/moneda-oro-bitcoin-criptomoneda-fondo-lineas-circuito-digital_1017-33592.jpg?t=st=1711409991~exp=1711410591~hmac=8bb74121b7050b1c6c6fef4d9abece5a8cebc2af607a42b538905610f12417a3");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0; /* Eliminar margen predeterminado del cuerpo */
+}
+
+.container {
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Estilos para el formulario */
+.conversion-form form {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente para que la imagen sea visible */
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px; /* Establecer un ancho máximo para el formulario */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
+}
+
+.result-container {
+	color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#resultadoConversion {
+	font-size:17px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	padding: 8px;
+	font-weight: bold;
+	max-width: 500px; /* Establecer un ancho máximo para el formulario */
+    margin: 0 auto; /* Centrar el formulario horizontalmente */
+	color: #18b304;
+}
+
+img {
+  max-height: 250px;
+  margin-top: 10px;
+  margin-bottom:35px;
+}
+
+/* Estilos para etiquetas y select */
+label {
+  color: white;
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 10px; /* Espaciado a la derecha */
+  font-size: 18px;
+}
+
+input {
+	border-radius:5px;
+	border: none;
+	height: 30px;
+}
+
+select {
+  padding: 5px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo transparente */
+  color: black; /* Color blanco para el texto */
+  font-size: 14px; /* Tamaño de fuente */
+  margin-bottom: 5px; /* Espaciado inferior */
+  border: none;
+}
+
+select:focus {
+  outline: none; /* Eliminar el contorno al enfocar */
+}
+
+/* Estilos para botones */
+button {
+  padding: 7px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: #ffffff; /* Color de texto blanco */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambiar cursor al pasar */
+}
+
+button:hover {
+  background-color: #45a049; /* Cambiar color de fondo al pasar */
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  margin-left: 0; /* Eliminar el margen izquierdo */
+  padding-left: 0; /* Eliminar el relleno izquierdo */
+}
+
+footer p {
+  margin: 0;
+  padding: 20px 0;
+  background-color: black;
+  color: #fff;
+  height: 30px;
+}
