@@ -34,10 +34,11 @@ body {
 /* Estilos para el formulario */
 .conversion-form form {
   background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente para que la imagen sea visible */
-  padding: 10px;
+  padding: 15px 0 10px 40px;
   border-radius: 10px;
   max-width: 500px; /* Establecer un ancho máximo para el formulario */
   margin: 0 auto; /* Centrar el formulario horizontalmente */
+  text-align: left; /* Alinear etiquetas a la izquierda */
 }
 
 .result-container {
@@ -53,7 +54,7 @@ body {
 	padding: 8px;
 	font-weight: bold;
 	max-width: 500px; /* Establecer un ancho máximo para el formulario */
-    margin: 0 auto; /* Centrar el formulario horizontalmente */
+  margin: 0 auto; /* Centrar el formulario horizontalmente */
 	color: #18b304;
 }
 
@@ -68,7 +69,7 @@ label {
   color: white;
   font-weight: bold; /* Texto en negrita */
   margin-right: 10px; /* Espaciado a la derecha */
-  font-size: 18px;
+  font-size: 16px;
 }
 
 input {
@@ -100,6 +101,8 @@ button {
   color: #ffffff; /* Color de texto blanco */
   font-size: 16px; /* Tamaño de fuente */
   cursor: pointer; /* Cambiar cursor al pasar */
+  display: block; /* Convertir a bloque para centrarlo horizontalmente */
+  margin: auto ; /* Centrar horizontalmente */
 }
 
 button:hover {
